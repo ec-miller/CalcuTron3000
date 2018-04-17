@@ -1,6 +1,6 @@
 # CalcuTron3000
 
-## The last Real Time Cloudless Pace Calculator made with React that you'll ever need!
+## The last React Real-Time Cloudless Pace Calculator that you'll ever need!
 
 WIP: The goal is for CalcuTron3000 to have many different fitness calculators. I am working on calculation number 2 and a navbar right now.
 
@@ -22,7 +22,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 > npm start
 ```
 
-#### Not Familiar with Git?
+#### Not Familiar with Git? Git out of here! j/k np
 Click the "Clone or Download" button above and choose to download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 
 ```
