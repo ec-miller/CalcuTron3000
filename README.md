@@ -2,9 +2,11 @@
 
 ## The last Real Time Cloudless Pace Calculator made with React that you'll ever need!
 
-WIP: future plan is for the CalcuTron3000 to have many different fitness calculators. If you'd like to create a component for a new calculation, feel free to submit a pull request.
+WIP: The goal is for CalcuTron3000 to have many different fitness calculators. I am working on calculation number 2 and a navbar right now.
 
-Inspired by StephenGrider's React and Redux [class](https://www.udemy.com/react-redux/)?
+If you'd like to create a component for a new calculation, feel free to submit a pull request ([do it!](https://giphy.com/explore/funny-dancing))
+
+Inspired by StephenGrider's React and Redux [class](https://www.udemy.com/react-redux/)
 
 ### Getting Started
 
