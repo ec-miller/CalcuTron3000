@@ -1,15 +1,34 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
 
-import App from './components/app';
-import reducers from './reducers';
+import PaceCalc from './components/pace-calc';
 
-const createStoreWithMiddleware = applyMiddleware()(createStore);
+class App extends Component {
+  constructor(props) {
+    super(props);
 
-ReactDOM.render(
-  <Provider store={createStoreWithMiddleware(reducers)}>
-    <App />
-  </Provider>
-  , document.querySelector('.container'));
+    this.state = {
+      placeholder: []
+    };
+  }
+
+  render() {
+    return (
+      <div>
+        <div>
+          <div className="bck container-fluid">
+            <h1>CalcuTron 3000</h1>
+          </div>
+          <br />
+          <div className="container">
+            <PaceCalc />
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+}
+
+
+ReactDOM.render(<App />, document.querySelector('.legitz'));

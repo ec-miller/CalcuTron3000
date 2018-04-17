@@ -1,0 +1,36 @@
+/* body {
+  background-color: DeepSkyBlue !important
+} */
+
+/* .bump {
+  height: 60px
+} */
+
+.bck {
+  height: 20vh;
+  width: 100%;
+  background: linear-gradient(45deg, CadetBlue 30%, Navy 100%) !important;
+  text-align: center;
+}
+
+h1 {
+  color: black !important;
+  /* vertical-align: middle; */
+  padding-top: 7vh;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.poof {
+  color: white
+}
+
+.noPad {
+  padding-left: 0rem !important;
+  padding-right: 0rem !important
+}
