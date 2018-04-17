@@ -6,7 +6,7 @@ WIP: The goal is for CalcuTron3000 to have many different fitness calculators. I
 
 If you'd like to create a component for a new calculation, feel free to submit a pull request ([do it!](https://giphy.com/explore/funny-dancing))
 
-Inspired by StephenGrider's React and Redux [class](https://www.udemy.com/react-redux/)
+Inspired by StephenGrider's React and Redux [class](https://www.udemy.com/react-redux/).
 
 ### Getting Started
 
